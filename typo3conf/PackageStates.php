@@ -144,6 +144,12 @@ return [
             'packagePath' => 'typo3/sysext/cshmanual/',
             'suggestions' => [],
         ],
+        'css_styled_content' => [
+            'composerName' => 'typo3/cms-css-styled-content',
+            'state' => 'active',
+            'packagePath' => 'typo3/sysext/css_styled_content/',
+            'suggestions' => [],
+        ],
         'felogin' => [
             'composerName' => 'typo3/cms-felogin',
             'state' => 'active',
@@ -252,16 +258,16 @@ return [
             'packagePath' => 'typo3conf/ext/introduction/',
             'suggestions' => [],
         ],
+        'doc_tut_templating' => [
+            'composerName' => 'doc_tut_templating',
+            'state' => 'active',
+            'packagePath' => 'typo3conf/ext/doc_tut_templating/',
+            'suggestions' => [],
+        ],
         'adodb' => [
             'composerName' => 'typo3/cms-adodb',
             'state' => 'inactive',
             'packagePath' => 'typo3/sysext/adodb/',
-            'suggestions' => [],
-        ],
-        'css_styled_content' => [
-            'composerName' => 'typo3/cms-css-styled-content',
-            'state' => 'inactive',
-            'packagePath' => 'typo3/sysext/css_styled_content/',
             'suggestions' => [],
         ],
         'dbal' => [

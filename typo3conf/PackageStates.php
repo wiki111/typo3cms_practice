@@ -264,6 +264,12 @@ return [
             'packagePath' => 'typo3conf/ext/doc_tut_templating/',
             'suggestions' => [],
         ],
+        'examples' => [
+            'composerName' => 'documentation/examples',
+            'state' => 'active',
+            'packagePath' => 'typo3conf/ext/examples/',
+            'suggestions' => [],
+        ],
         'adodb' => [
             'composerName' => 'typo3/cms-adodb',
             'state' => 'inactive',

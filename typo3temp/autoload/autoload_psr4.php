@@ -6,4 +6,5 @@ $typo3InstallDir = PATH_site;
 
 return array(
     'BK2K\\BootstrapPackage\\' => array($typo3InstallDir . 'typo3conf/ext/bootstrap_package/Classes'),
+    'Documentation\\Examples\\' => array($typo3InstallDir . 'typo3conf/ext/examples/Classes'),
 );
